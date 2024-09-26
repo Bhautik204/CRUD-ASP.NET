@@ -1,0 +1,70 @@
+@model CoffeeShop.Models.ProductModel;
+
+@{
+ViewData["Title"] = "Product Form";
+}
+
+<main id="main" class="main">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Add Product</h5>
+                <button type="button" class="btn btn-danger" onclick="navigateToAdd('@Url.Action("ProductsList", "Product")')">x</button>
+            </div>
+            <!-- Vertical Form -->
+            <form class="row g-3" method="post" asp-controller="Product" asp-action="ProductSave">
+                <input type="hidden" asp-for="ProductID" />
+                <div class="col-12">
+                    <label for="inputText" class="form-label">Product Name</label>
+                    <input type="text" class="form-control" id="ProductName" asp-for="ProductName">
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <label for="ProductPrice" class="form-label">Product Price</label>
+                    <input type="number" class="form-control" id="ProductPrice" name="ProductPrice" step="0.01" asp-for="ProductPrice">
+                    <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <label for="ProductCode" class="form-label">Product Code</label>
+                    <input type="text" class="form-control" id="ProductCode" name="ProductCode" asp-for="ProductCode">
+                    <span asp-validation-for="ProductCode" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <label for="Description" class="form-label">Description</label>
+                    <textarea class="form-control" id="Description" name="Description" rows="3" asp-for="Description"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <label asp-for="UserID" class="form-label">User Name</label>
+                    <select asp-for="UserID" class="form-control" style="width: 250px; height: 35px; padding: 5px; font-size:14px; color: #555; border: 1px solid #ccc; border-radius: 4px;">
+                        <option value="">Select User</option>
+                        @foreach (var user in ViewBag.UserList)
+                        {
+                        <option value="@user.UserID">@user.UserName</option>
+                        }
+                    </select>
+                    <span asp-validation-for="UserID" class="text-danger"></span>
+
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">
+                        @if (ViewBag.IsEdit)
+                        {
+                        <text>Update</text>
+                        }
+                        else
+                        {
+                        <text>Submit</text>
+                        }
+                    </button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            </form><!-- Vertical Form -->
+        </div>
+    </div>
+
+</main>
+
+<script src="~/assets/js/scripts.js"></script>
+

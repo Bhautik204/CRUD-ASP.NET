@@ -1,0 +1,100 @@
+@using System.ComponentModel.DataAnnotations
+@model CoffeeShop.Models.OrderModel;
+
+@{
+    ViewData["Title"] = "Order Form";
+}
+
+<main id="main" class="main">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Add Order</h5>
+                <button type="button" class="btn btn-danger" onclick="navigateToAdd('@Url.Action("OrdersList", "Order")')">x</button>
+            </div>
+
+            <!-- Vertical Form -->
+            @* <form class="row g-3"> *@
+            @using (Html.BeginForm("OrderSave", "Order", FormMethod.Post, new { @class = "row g-3" }))
+            {
+                <div class="col-12">
+                    @* <label for="OrderDate" class="form-label">Order Date</label> *@
+                    @* <input type="date" class="form-control" id="OrderDate" name="OrderDate" asp-for="OrderDate"> *@
+                    @* <span asp-validation-for="OrderDate" class="text-danger"></span> *@
+                    @Html.LabelFor(m => m.OrderDate,"Order Date" )
+                    @Html.TextBoxFor(m => m.OrderDate,new{@class="form-control",@type="date"})
+                    @Html.ValidationMessageFor(m => m.OrderDate,null,new{@class="text-danger"})
+                </div>
+                <div class="col-12">
+                    @* <label for="CustomerName" class="form-label">Customer Name</label> *@
+                    @* <input type="text2" class="form-control" id="Customername" name="CustomerName" asp-for="CustomerName"> *@
+                    @* <span asp-validation-for="CustomerName" class="text-danger"></span> *@
+                    @Html.LabelFor(m => m.CustomerID, "Customer Name", new { @class = "form-label" })
+                    @Html.DropDownListFor(m => m.CustomerID,
+                        new SelectList(ViewBag.CustomerList, "CustomerID", "CustomerName"), "Select Customer",
+                        new { @class = "form-control", @style = "width: 250px; height: 35px; padding: 5px; font-size:14px; color: #555; border: 1px solid #ccc; border-radius: 4px;"})
+                    @Html.ValidationMessageFor(m => m.CustomerID, null, new { @class = "text-danger" })
+                </div>
+                <div class="col-12">
+                    @* <label for="PaymentMode" class="form-label">Payment Mode</label> *@
+                    @* <select class="form-control" id="PaymentMode" name="PaymentMode"> *@
+                    @*     <option value="CreditCard">Credit Card</option> *@
+                    @*     <option value="DebitCard">Debit Card</option> *@
+                    @*     <option value="NetBanking">Net Banking</option> *@
+                    @*     <option value="UPI">UPI</option> *@
+                    @*     <option value="CashOnDelivery">Cash on Delivery</option> *@
+                    @* </select> *@
+                    @Html.LabelFor(m => m.PaymentMode,"Payment Mode")<br/>
+                    @Html.DropDownListFor(m => m.PaymentMode,new SelectList(new[]{"Credit card","Debit card","Net Banking","UPI","Cash on Delivery"}),"Select method for payment",new { @style = "width: 250px; height: 35px; padding: 5px; font-size:14px; color: #555; border: 1px solid #ccc; border-radius: 4px;" })
+                    @Html.ValidationMessageFor(m => m.PaymentMode,null,new{@class="text-danger"})
+                    
+                </div>
+                <div class="col-12">
+                    @*     <label for="TotalAmount" class="form-label">Total Amount</label> *@
+                    @*     <input type="number" class="form-control" id="TotalAmount" name="TotalAmount" step="0.01"> *@
+                    @Html.LabelFor(m => m.TotalAmount,"Total amount")
+                    @Html.TextBoxFor(m => m.TotalAmount,new{@class="form-control",@type="number"})
+                    @Html.ValidationMessageFor(m => m.TotalAmount,null,new{@class="text-danger"})
+                </div>
+                <div class="col-12">
+                    @* <label for="ShippingAddress" class="form-label">Shipping Address</label> *@
+                    @* <textarea class="form-control" id="ShippingAddress" name="ShippingAddress" rows="3"></textarea> *@
+                    @Html.LabelFor(m => m.ShippingAddress,"Shipping Address")
+                    @Html.TextAreaFor(m => m.ShippingAddress,new{@class="form-control"})
+                    @Html.ValidationMessageFor(m => m.ShippingAddress,null,new{@class="text-danger"})
+                </div>
+                <div class="col-12">
+                    @* <label for="UserID" class="form-label">User ID</label> *@
+                    @* <input type="number" class="form-control" id="UserID" name="UserID"> *@
+                    @Html.LabelFor(m => m.UserID, "User Name", new { @class = "form-label" })
+                    @Html.DropDownListFor(m => m.UserID,
+                        new SelectList(ViewBag.UserList, "UserID", "UserName"), "Select User",
+                        new { @class = "form-control", @style = "width: 250px; height: 35px; padding: 5px; font-size:14px; color: #555; border: 1px solid #ccc; border-radius: 4px;"})
+                    @Html.ValidationMessageFor(m => m.UserID, null, new { @class = "text-danger" })
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">
+                        @if (ViewBag.IsEdit)
+                        {
+                            <text>Update</text>
+                        }
+                        else
+                        {
+                            <text>Submit</text>
+                        }
+                    </button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            }
+            
+            
+            
+            @* </form><!-- Vertical Form --> *@
+
+        </div>
+    </div>
+
+</main>
+
+<script src="~/assets/js/scripts.js"></script>

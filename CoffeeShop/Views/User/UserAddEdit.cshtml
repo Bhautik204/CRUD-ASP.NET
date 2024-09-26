@@ -1,0 +1,77 @@
+@model CoffeeShop.Models.UserModel
+
+@{
+ViewData["Title"] = "User Form";
+}
+
+<main id="main" class="main">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title">Add User</h5>
+                <button type="button" class="btn btn-danger" onclick="navigateToAdd('@Url.Action("UsersList", "User")')">x</button>
+            </div>
+
+            <!-- Vertical Form -->
+            <form class="row g-3" method="post" asp-controller="User" asp-action="UserSave">
+                <input type="hidden" asp-for="UserID"/>
+                <div class="col-12">
+                    <label asp-for="UserName" class="form-label"></label>
+                    <input type="text" class="form-control" asp-for="UserName" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input type="email" class="form-control" asp-for="Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input type="password" class="form-control" asp-for="Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="MobileNo" class="form-label"></label>
+                    <input type="text" class="form-control" asp-for="MobileNo" />
+                    <span asp-validation-for="MobileNo" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="Address" class="form-label"></label>
+                    <textarea class="form-control" asp-for="Address" rows="3"></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="col-12">
+                    <label asp-for="IsActive" class="form-label"></label>
+                    <select class="form-control" asp-for="IsActive">
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
+                    <span asp-validation-for="IsActive" class="text-danger"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">
+                        @if (ViewBag.IsEdit)
+                        {
+                            <text>Update</text>
+                        }
+                        else
+                        {
+                            <text>Submit</text>
+                        }
+                    </button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            </form><!-- Vertical Form -->
+
+        </div>
+    </div>
+</main>
+
+<script src="~/assets/js/scripts.js"></script>
