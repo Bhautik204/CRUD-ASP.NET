@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CoffeeShop
+build_property.RootNamespace = CoffeeShop
+build_property.ProjectDir = C:\Users\Bhautik\Desktop\B.tech\5th\programs\ASPDOTNET\MVC\CoffeeShop\CoffeeShop\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Bhautik\Desktop\B.tech\5th\programs\ASPDOTNET\MVC\CoffeeShop\CoffeeShop
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Bills/BillsAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcQmlsbHNBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Bills/BillsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcQmlsbHNMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Customer/CustomerAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Customer/CustomersList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/OrderDetails/OrderDetailsAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXE9yZGVyRGV0YWlsc0FkZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/OrderDetails/OrderDetailsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXE9yZGVyRGV0YWlsc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Order/OrderAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Order/OrdersList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Product/ProductAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0QWRkRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Product/ProductsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0c0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Shared/_Layout_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Shared/_Layout_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/User/UserAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyQWRkRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/User/UsersList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2Vyc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bhautik/Desktop/B.tech/5th/programs/ASPDOTNET/MVC/CoffeeShop/CoffeeShop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zvor65ct1i

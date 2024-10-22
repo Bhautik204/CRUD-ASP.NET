@@ -6091,11 +6091,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bhautik\\Desktop\\B.tech\\5th\\programs\\.net\\MVC\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+      "projectUniqueName": "C:\\Users\\Bhautik\\Desktop\\B.tech\\5th\\programs\\ASPDOTNET\\MVC\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
       "projectName": "CoffeeShop",
-      "projectPath": "C:\\Users\\Bhautik\\Desktop\\B.tech\\5th\\programs\\.net\\MVC\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+      "projectPath": "C:\\Users\\Bhautik\\Desktop\\B.tech\\5th\\programs\\ASPDOTNET\\MVC\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
       "packagesPath": "C:\\Users\\Bhautik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bhautik\\Desktop\\B.tech\\5th\\programs\\.net\\MVC\\CoffeeShop\\CoffeeShop\\obj\\",
+      "outputPath": "C:\\Users\\Bhautik\\Desktop\\B.tech\\5th\\programs\\ASPDOTNET\\MVC\\CoffeeShop\\CoffeeShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bhautik\\AppData\\Roaming\\NuGet\\NuGet.Config",

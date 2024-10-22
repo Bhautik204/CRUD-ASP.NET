@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KApJE0DUxdY=",
+  "dgSpecHash": "OQIr51WCKtk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bhautik\\Desktop\\B.tech\\5th\\programs\\.net\\MVC\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+  "projectFilePath": "C:\\Users\\Bhautik\\Desktop\\B.tech\\5th\\programs\\ASPDOTNET\\MVC\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bhautik\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Bhautik\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
